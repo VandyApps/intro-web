@@ -3,7 +3,9 @@ function changeListItem() {
     listItem.textContent = 'Javascript';
 }
 
-// document.querySelector('img').onclick = changeListItem;
+// These do the same things.
+// document.querySelector('h1').onclick = changeListItem;
+document.querySelector('h1').addEventListener('click', changeListItem);
 
 document.querySelector('button').onclick = function() {
     document.querySelector('h1').setAttribute('style', 'color: orange');
