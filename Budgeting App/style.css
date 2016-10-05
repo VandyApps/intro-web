@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+header {
+    height: 10%;
+    text-align: center;
+}
+
+main {
+    min-height: 90%;
+    /* equal to footer height */
+    margin-bottom: -42px; 
+
+    font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+main:after {
+    content: "";
+    display: block;
+}
+
+footer, main:after {
+    height: 42px;
+}
+
+footer {
+    text-align: center;
+    font-size: smaller;
+}
+
+footer small {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
