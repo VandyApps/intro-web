@@ -1,0 +1,14 @@
+{
+  "name": "VandyApps-budgeter",
+  "version": "0.0.1",
+  "description": "The backend for the VandyApps budgeting app",
+  "author": "Varun Arora <varun@arora.me>",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "main": "app.js",
+  "repository": "VandyApps/intro-web",
+  "dependencies": {
+    "express": "^4.14.0"
+  }
+}
